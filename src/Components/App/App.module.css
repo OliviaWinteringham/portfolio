@@ -1,11 +1,11 @@
 .header {
   display: flex;
   flex-direction: row;
-  justify-content:space-around;
+  justify-content: space-around;
 }
 
-.button{
-  font-family: 'olivia';
+.button {
+  font-family: "olivia";
   background-color: black;
   font-size: 200%;
   color: white;
@@ -15,19 +15,17 @@
   outline: none;
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
-
 }
 
 #buttonHome:hover {
   background-color: orangered;
-  font-family: 'Dancing Script', cursive; 
+  font-family: "Dancing Script", cursive;
   font-size: 40px;
 }
 
 #buttonSkills:hover {
   background-color: darkblue;
-  font-family: 'Bowlby One SC', cursive;
-
+  font-family: "Bowlby One SC", cursive;
 }
 
 #buttonProjects:hover {
@@ -35,32 +33,30 @@
   /* animation: buttonsSpin infinite 11s cubic-bezier(0.215, 0.610, 0.355, 1);
   height: 40vmin;
   pointer-events: none; */
-  font-family: 'UnifrakturMaguntia', cursive;
+  font-family: "UnifrakturMaguntia", cursive;
   font-size: 80px;
 }
 
 #buttonContact:hover {
   background-image: url("https://media.licdn.com/dms/image/C5603AQFikSQ4fiNd3g/profile-displayphoto-shrink_100_100/0?e=1560384000&v=beta&t=74plxSqQo6O6dl96w6RV1oU_-pqN6kP9Ym6PHqjktuk");
-
 }
 
-.textContainer{
+.textContainer {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   height: 50%;
-  padding-top: 5%;
- 
+  padding-top: 2%;
 }
 
-.oliviaHeader{
+.oliviaHeader {
   font-family: "olivia";
-  font-size: 68px;
+  font-size: 60px;
 }
 
-#oliviaHeaderHover:hover{
-  font-family: 'Roboto Slab', serif;
+#oliviaHeaderHover:hover {
+  font-family: "Roboto Slab", serif;
   animation: shake 0.5s;
   animation-iteration-count: infinite;
   background-color: red;
@@ -69,26 +65,48 @@
 }
 
 @keyframes shake {
-  0% { transform: translate(1px, 1px) rotate(0deg); }
-  10% { transform: translate(-1px, -2px) rotate(-1deg); }
-  20% { transform: translate(-3px, 0px) rotate(1deg); }
-  30% { transform: translate(3px, 2px) rotate(0deg); }
-  40% { transform: translate(1px, -1px) rotate(1deg); }
-  50% { transform: translate(-1px, 2px) rotate(-1deg); }
-  60% { transform: translate(-3px, 1px) rotate(0deg); }
-  70% { transform: translate(3px, 1px) rotate(-1deg); }
-  80% { transform: translate(-1px, -1px) rotate(1deg); }
-  90% { transform: translate(1px, 2px) rotate(0deg); }
-  100% { transform: translate(1px, -2px) rotate(-1deg); }
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
 }
 
-.oliviaDescription{
+.oliviaDescription {
   font-family: "olivia";
   font-size: 38px;
 }
 
-.intro{
-  font-family: 'Roboto Slab', serif;
+.intro {
+  font-family: "Roboto Slab", serif;
   /* font-family: 'Dancing Script', cursive; */
   font-size: 20px;
 }
@@ -102,11 +120,10 @@
   }
 } */
 
-.languages{
-  font-family: 'Roboto Slab', serif;
+.languages {
+  font-family: "Roboto Slab", serif;
   font-size: 20px;
   display: flex;
   justify-content: center;
   flex-direction: row;
-
 }
