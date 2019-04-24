@@ -14,9 +14,9 @@ function App() {
     <div className={css.textContainer} >
     <h1 className={css.oliviaHeader} id={css.oliviaHeaderHover}> Olivia Winteringham</h1>
     <h2 className={css.oliviaDescription}>junior web developer</h2>
-    <p className={css.intro}>graduate of The School of Code </p>
+    <p className={css.intro}>graduate of The School of Code bootcamp</p>
     </div>
-    <p className={css.languages}>react | gastby | javaScript | mongodb </p>
+    <p className={css.languages}>react | gastby | javaScript | mongodb | node | express | jonny lester evangelist </p>
     </>
   );
 }

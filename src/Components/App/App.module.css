@@ -1,3 +1,9 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+}
+
 .button{
   font-family: 'olivia';
   background-color: black;
@@ -7,8 +13,6 @@
   height: 19vh;
   margin: 10px;
   outline: none;
-  flex-direction: row;
-  justify-content:space-around;
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
 
