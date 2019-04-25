@@ -28,7 +28,7 @@ function App() {
         <p className={css.intro}>graduate of The School of Code bootcamp</p>
       </div>
       <p className={css.languages}>
-        <Emoji symbol="👩‍🔧" label="woman mechanic" /><span/> react{"  "}
+        <Emoji symbol="👩‍🔧" label="woman mechanic" /> react{"  "}
         <Emoji symbol="👩‍🏭" label="factory worker" /> gatsby{" "}
         <Emoji symbol="👩‍💻" label="woman technologist" /> javaScript{"  "}
         <Emoji symbol="👩‍🎨" label="woman artist" /> mongodb{"  "}
