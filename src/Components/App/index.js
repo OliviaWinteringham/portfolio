@@ -38,6 +38,9 @@ function App() {
         {"  "}
         <Emoji symbol="🙌" label="raising hands" />
       </p>
+      <p className={css.madeInReact}>
+        this website was designed by me in React
+      </p>
     </>
   );
 }

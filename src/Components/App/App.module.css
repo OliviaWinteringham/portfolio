@@ -127,3 +127,11 @@
   justify-content: center;
   flex-direction: row;
 }
+
+.madeInReact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-family: "Roboto Slab", serif;
+  font-size: 10px;
+}
