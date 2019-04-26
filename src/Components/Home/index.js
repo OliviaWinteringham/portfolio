@@ -1,34 +1,22 @@
 import React from "react";
-import css from "./App.module.css";
+import css from "./Home.module.css";
 import Emoji from "../Emoji";
+import NavBar from "../NavBar";
 
-function App() {
+function Home() {
   return (
     <>
-      <div className={css.header}>
-        <button className={css.button} id={css.buttonHome}>
-          home
-        </button>
-        <button className={css.button} id={css.buttonSkills}>
-          skills
-        </button>
-        <button className={css.button} id={css.buttonProjects}>
-          projects
-        </button>
-        <button className={css.button} id={css.buttonContact}>
-          contact
-        </button>
-      </div>
+      <NavBar />
       <div className={css.textContainer}>
         <h1 className={css.oliviaHeader} id={css.oliviaHeaderHover}>
-          {" "}
           Olivia Winteringham
         </h1>
         <h2 className={css.oliviaDescription}>junior web developer</h2>
         <p className={css.intro}>graduate of The School of Code bootcamp</p>
       </div>
       <p className={css.languages}>
-        <Emoji symbol="👩‍🔧" label="woman mechanic" /> react{"  "}
+        <Emoji symbol="👩‍🔧" label="woman mechanic" />
+        <span> </span> react{"  "}
         <Emoji symbol="👩‍🏭" label="factory worker" /> gatsby{" "}
         <Emoji symbol="👩‍💻" label="woman technologist" /> javaScript{"  "}
         <Emoji symbol="👩‍🎨" label="woman artist" /> mongodb{"  "}
@@ -45,4 +33,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;
