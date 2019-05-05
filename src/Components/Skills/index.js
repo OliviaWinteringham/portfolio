@@ -15,7 +15,7 @@ class Skills extends React.Component {
         <div>
           <h1 className={css.skillsText}>Skills...coming soon</h1>
         </div>
-      </>
+      </> 
     );
   }
 }

@@ -2,5 +2,5 @@
     display: flex;
     justify-content: center;
     flex-direction: row;
-    padding: 20vh;
-  }
+    padding-top: 20vh;
+}
