@@ -1,5 +1,6 @@
 import React from "react";
 import NavBar from "../NavBar";
+import css from "./skills.module.css"
 
 class Skills extends React.Component {
   constructor(props) {
@@ -12,7 +13,7 @@ class Skills extends React.Component {
       <>
         <NavBar />
         <div>
-          <h2>Skillz</h2>
+          <h1 className={css.skillsText}>Skills...coming soon</h1>
         </div>
       </>
     );
@@ -21,5 +22,3 @@ class Skills extends React.Component {
 
 export default Skills;
 
-/// each page should link
-/// each page nav bar

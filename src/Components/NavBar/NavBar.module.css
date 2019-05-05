@@ -43,3 +43,42 @@
   font-size: 30px;
   color: red;
 }
+
+@media only screen and (max-width: 768px) {
+  .button {
+    font-size: 15px;
+    width: 15vw;
+    height: 10vh;
+    outline: none;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  html {
+    background-color: white;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  html {
+    background-color:lime;
+  }
+}
+
+@media only screen and (max-width: 508px) {
+  .button {
+   font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .button{
+   font-size: 7px;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .button{
+   font-size: 7px;
+  }
+}

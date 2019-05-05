@@ -64,7 +64,6 @@
 
 .intro {
   font-family: "Roboto Slab", serif;
-  /* font-family: 'Dancing Script', cursive; */
   font-size: 20px;
 }
 
@@ -91,4 +90,62 @@
   justify-content: space-around;
   font-family: "Roboto Slab", serif;
   font-size: 10px;
+}
+
+@media only screen and (max-width: 880px){
+  .languages {
+    font-size: 15px;
+    }
+} 
+
+@media only screen and (max-width: 768px) {
+  .textContainer 
+  .oliviaHeader {
+    font-size: 40px; 
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .oliviaDescription{
+    font-size: 20px; 
+  }
+}
+
+@media only screen and (max-width: 660px){
+  .languages {
+    flex-direction: column;
+    align-items: center;
+    }
+} 
+
+@media only screen and (max-width: 600px) {
+  .textContainer 
+  .oliviaHeader {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .textContainer 
+  .oliviaHeader {
+    flex-direction: column;
+    align-items: center;
+    font-size: 24px;
+  }
+  .intro{
+    font-size:12px;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .textContainer 
+  .oliviaHeader 
+  .oliviaDescription{
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+  } 
+  .intro{
+    font-size:10px;
+  }
 }

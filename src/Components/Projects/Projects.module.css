@@ -1,0 +1,6 @@
+.projectText{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 20vh;
+  }
