@@ -19,6 +19,7 @@ const routing = (
     <Route path="/skills" component={Skills} />
     <Route path="/projects" component={Projects} />
     <Route path="/contact" component={Contact} />
+    <Route path='/twitter' component={() => { window.location = 'https://twitter.com/owinteringham'} }/>
   </Router>
 );
 
