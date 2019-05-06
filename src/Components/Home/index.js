@@ -16,14 +16,14 @@ function Home() {
       </div>
       <p className={css.languages}>
         <Emoji symbol="👩‍🔧" label="woman mechanic" />
-        <span> </span> react{"  "}
-        <Emoji symbol="👩‍🏭" label="factory worker" /> gatsby{" "}
+        <span> </span> HTML5{"  "}
+        <Emoji symbol="👩‍🏭" label="factory worker" /> CSS3{" "}
         <Emoji symbol="👩‍💻" label="woman technologist" /> javaScript{"  "}
-        <Emoji symbol="👩‍🎨" label="woman artist" /> mongodb{"  "}
-        <Emoji symbol="👩‍🚀" label="woman astronaut" /> node{"  "}
-        <Emoji symbol="👩‍" label="woman" /> express{"  "}
+        <Emoji symbol="👩‍🎨" label="woman artist" />react{"  "}
+        <Emoji symbol="👩‍🚀" label="woman astronaut" />react-native{"  "}
+        <Emoji symbol="👩‍" label="woman" /> mongoDB{"  "}
         {"  "}
-        <Emoji symbol="🙌" label="raising hands" />
+        <Emoji symbol="🙌" label="raising hands" />AWS
       </p>
       <p className={css.madeInReact}>
         this website was designed by me in React
