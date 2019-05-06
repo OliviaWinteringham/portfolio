@@ -12,3 +12,26 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+body{
+  animation: colorchange 7s infinite;
+  -webkit-animation: colorchange 7s infinite;
+}
+
+@keyframes colorchange
+    {
+      0%   {background-color: red;}
+      25%  {background-color: yellow;}
+      50%  {background-color: blue;}
+      75%  {background-color: turquoise;}
+      100% {background-color: red;}
+    }
+
+    @-webkit-keyframes colorchange 
+    {
+      0%   {background-color: red;}
+      25%  {background-color: yellow;}
+      50%  {background-color: blue;}
+      75%  {background-color: turquoise;}
+      100% {background-color: red;}
+    }
