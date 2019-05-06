@@ -22,7 +22,6 @@ function Home() {
         <Emoji symbol="👩‍🎨" label="woman artist" /> mongodb{"  "}
         <Emoji symbol="👩‍🚀" label="woman astronaut" /> node{"  "}
         <Emoji symbol="👩‍" label="woman" /> express{"  "}
-        <Emoji symbol="🧟‍" label="woman artist" /> jonny lester evangelist
         {"  "}
         <Emoji symbol="🙌" label="raising hands" />
       </p>
