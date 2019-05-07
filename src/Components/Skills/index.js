@@ -11,10 +11,12 @@ class Skills extends React.Component {
   render() {
     return (
       <>
+        <nav>
         <NavBar />
-        <div>
+        </nav>
+        <main>
           <h1 className={css.skillsText}>Skills...coming soon</h1>
-        </div>
+        </main>
       </> 
     );
   }

@@ -5,10 +5,12 @@ import css from './Projects.module.css'
 const Projects = () => {
   return (
     <>
-      <NavBar />
-      <div>
+      <nav>
+        <NavBar />
+      </nav>
+      <main>
       <h1 className={css.projectText}>Projects... coming soon</h1>
-      </div>
+      </main>
     </>
   );
 };

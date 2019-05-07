@@ -8,7 +8,10 @@ import css from "./Contact.module.css";
 const Contact = () => {
   return (
     <>
+     <nav>
       <NavBar />
+      </nav>
+      <main>
       <div className={css.header}>
         <div className={css.contactText}>
           <h1> want to collaborate? fancy a chat? please get in touch</h1>
@@ -18,6 +21,7 @@ const Contact = () => {
       </Link>
         </div>
       </div>
+      </main>
     </>
   );
 };
