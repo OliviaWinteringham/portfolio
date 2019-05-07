@@ -14,8 +14,8 @@ code {
 }
 
 body{
-  animation: colorchange 7s infinite;
-  -webkit-animation: colorchange 7s infinite;
+  animation: colorchange 11s infinite;
+  -webkit-animation: colorchange 11s infinite;
 }
 
 @keyframes colorchange

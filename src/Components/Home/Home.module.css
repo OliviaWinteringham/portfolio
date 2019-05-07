@@ -19,6 +19,7 @@
   background-color: red;
   border-radius: 20% 50% 30% 40%;
   border: 15px dashed;
+  padding: 10px 60px;
 }
 
 @keyframes shake {
