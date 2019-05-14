@@ -15,8 +15,7 @@ const Contact = () => {
       <div className={css.header}>
         <div className={css.contactText}>
           <h1> want to collaborate? fancy a chat? please get in touch</h1>
-          {/* <Link to="/twitter" target="_blank"></Link> */}
-          <Link to="/twitter">
+          <Link to="/twitter" target="blank">
           <h2> get in touch via twitter @owinteringham
           </h2>
       </Link>
