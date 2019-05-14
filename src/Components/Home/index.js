@@ -15,7 +15,7 @@ function Home() {
           Olivia Winteringham
         </h1>
         <h2 className={css.oliviaDescription}>junior web developer</h2>
-        <p className={css.intro}>graduate of The School of Code bootcamp</p>
+        <p className={css.intro}>student at The School of Code bootcamp</p>
       </div>
       <p className={css.languages}>
         <Emoji symbol="👩‍🔧" label="woman mechanic" />HTML5{"  "}
