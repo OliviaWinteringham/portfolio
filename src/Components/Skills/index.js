@@ -36,7 +36,7 @@ class Skills extends React.Component {
         <main>
           <h1 className={css.skillsText}>Skills</h1>
           <h2 className={css.editableText} contenteditable="true">What skills are you looking for? Click here and start typing</h2>
-          <p className={css.skillsBody}>I really like typography, so I made my own font which you can see above and throughout this website. It's called 'Olivia'</p>
+          <p className={css.skillsBody}>I really like typography, so I made my own font which you can see above and throughout this website. It's called... 'Olivia'</p>
           {/* <input 
             className={css.fontInput}
             placeholder= 'type your name'
