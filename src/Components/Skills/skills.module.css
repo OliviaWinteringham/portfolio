@@ -4,3 +4,16 @@
     flex-direction: row;
     padding-top: 20vh;
 }
+
+.editableText{
+    font-family: "olivia";
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.skillsBody{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}

@@ -25,7 +25,6 @@ function Home() {
         <Emoji symbol="👩‍🚀" label="woman astronaut" />react-native{"  "}
         <Emoji symbol="👩‍" label="woman" /> mongoDB{"  "}
         {"  "}
-        <Emoji symbol="🙌" label="raising hands" />AWS
       </p>
       <p className={css.madeInReact}>
         this website was designed by me in React
