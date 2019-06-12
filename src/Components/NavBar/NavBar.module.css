@@ -47,28 +47,10 @@
 @media only screen and (max-width: 768px) {
   .button {
     font-size: 17px;
-    width: 15vw;
+    width: 20vw;
     height: 10vh;
   }
 }
-
-/* @media only screen and (max-width: 1200px) {
-  html {
-    background-color: white;
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  html {
-    background-color:lime;
-  }
-}
-
-@media only screen and (max-width: 400px) {
-  html {
-    background-color: magenta;
-  }
-} */
 
 @media only screen and (max-width: 508px) {
   .button {
@@ -82,8 +64,3 @@
   }
 }
 
-@media only screen and (max-width: 420px) {
-  .button{
-   font-size: 7px;
-  }
-}

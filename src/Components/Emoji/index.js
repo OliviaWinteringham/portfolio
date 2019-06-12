@@ -1,5 +1,5 @@
 import React from "react";
-// import emoji from "a11y-react-emoji";
+import emoji from "a11y-react-emoji";
 
 const Emoji = props => (
   <span
