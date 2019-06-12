@@ -14,14 +14,16 @@ code {
 }
 
 body{
-  animation: colorchange 11s infinite;
-  -webkit-animation: colorchange 11s infinite;
+  animation: colorchange 15s infinite;
+  -webkit-animation: colorchange 15s infinite;
 }
 
 @keyframes colorchange
     {
       0%   {background-color: red;}
+      10%  {background-color: orange;}
       25%  {background-color: yellow;}
+      35%  {background-color: green;}
       50%  {background-color: blue;}
       75%  {background-color: turquoise;}
       100% {background-color: red;}
@@ -30,7 +32,9 @@ body{
     @-webkit-keyframes colorchange 
     {
       0%   {background-color: red;}
+      10%  {background-color: orange;}
       25%  {background-color: yellow;}
+      35%  {background-color: green;}
       50%  {background-color: blue;}
       75%  {background-color: turquoise;}
       100% {background-color: red;}

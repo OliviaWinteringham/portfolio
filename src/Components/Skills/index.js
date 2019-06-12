@@ -1,7 +1,7 @@
 import React from "react";
 import NavBar from "../NavBar";
 import css from "./skills.module.css";
-
+import {url} from "../../Assets/cursors/smileyCursor.cur"
 
 
 class Skills extends React.Component {
@@ -31,9 +31,9 @@ class Skills extends React.Component {
     return (
       <>
         <nav>
-        <NavBar />
+        <NavBar/>
         </nav>
-        <main>
+        <main className={css.page}> 
           {/* <h1 className={css.skillsText}>Skills</h1> */}
           <h1 className={css.editableText} contenteditable="true">Click here, delete and start typing</h1>
           <p className={css.skillsBody}>I really like typography, so I made my own font which you can see above and throughout this website. It's called...</p>

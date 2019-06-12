@@ -1,3 +1,7 @@
+.page{
+    cursor: url('../../Assets/cursors/smileyCursor.cur'), auto;
+}
+
 .skillsText{
     display: flex;
     justify-content: center;
