@@ -1,7 +1,7 @@
 import React from "react";
 import NavBar from "../NavBar";
 import css from './Projects.module.css'
-import queen from '../../Assets/queen.png'
+import queen from '../../Assets/Images/queen.png'
 
 const Projects = () => {
   return (

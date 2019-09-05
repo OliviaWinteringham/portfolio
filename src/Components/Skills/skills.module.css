@@ -7,12 +7,19 @@
     justify-content: center;
     text-align: center;
     flex-direction: row;
-    padding-top: 20vh;
+    padding-top: 20vh
 }
 .olivia{
   font-family: 'olivia';
   display: flex;
   justify-content: center;
+  /* cursor: url('../../Assets/cursors/heart.cur'), auto */
+}
+
+#hoverHere{
+    display: flex;
+    justify-content: center;
+    cursor: url('../../Assets/cursors/heartFace.cur'), auto
 }
 
 .editableText{
@@ -24,7 +31,7 @@
     padding-left: 25%;
     padding-right: 25%;
     transform:  translate (-50%);
-    color: grey;
+    color:purple;
     font-family: "olivia";
     display: flex;
     justify-content: center;
