@@ -41,18 +41,7 @@ class Skills extends React.Component {
                             <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1Xm_6fko2eK9tszCD93-L7zjjlpSqqbwT" width="640" height="480"></iframe>
                     </div> */}
            
-           {/* <input 
-            className={css.fontInput}
-            placeholder="What skills are you looking for? Click here and start typing"
-            name = 'text'
-            onChange = {this.onChange}
-            value={this.state.text}
-            onSubmit={this.handleSubmit}
-          />
-          <button 
-            className={css.textButton}
-            onClick={this.changeText} 
-            aria-label = 'click this button to submit your text'>click me</button> */}
+          
         </main>
         </>
     );

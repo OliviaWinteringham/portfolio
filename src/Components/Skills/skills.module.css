@@ -16,11 +16,6 @@
   /* cursor: url('../../Assets/cursors/heart.cur'), auto */
 }
 
-#hoverHere{
-    display: flex;
-    justify-content: center;
-    cursor: url('../../Assets/cursors/heartFace.cur'), auto
-}
 
 .editableText{
     display: flex;
