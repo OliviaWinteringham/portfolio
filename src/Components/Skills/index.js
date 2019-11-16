@@ -36,7 +36,6 @@ class Skills extends React.Component {
           <h1 className={css.editableText} contenteditable="true">Click here, delete and start typing</h1>
           <p className={css.skillsBody}>I really like typography, so I made my own font which you can see above and throughout this website. It's called...</p>
           <h1 className={css.olivia}>'Olivia'</h1>
-          <div id={css.hoverHere}>hover here! you can only see this little sweetie on a desktop</div>
           {/* <div>
                             <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1Xm_6fko2eK9tszCD93-L7zjjlpSqqbwT" width="640" height="480"></iframe>
                     </div> */}
