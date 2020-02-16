@@ -18,7 +18,7 @@ const Contact = () => {
           <Link to="/twitter">
           <h2> get in touch via twitter @owinteringham
           </h2>
-      </Link>
+          </Link>
         </div>
       </div>
       </main>
