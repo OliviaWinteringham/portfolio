@@ -26,8 +26,8 @@
     padding-left: 25%;
     padding-right: 25%;
     transform:  translate (-50%);
-    color:purple;
-    font-family: "olivia";
+    color: black;
+    font-family: "socfont";
     display: flex;
     justify-content: center;
     text-align: center;
@@ -35,7 +35,16 @@
 }
 
 .skillsBody{
+    font-family: 'Roboto Slab';
     display: flex;
     justify-content: center;
     flex-direction: row;
+}
+
+.socfont{
+    font-family: "socfont";
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 5%, 10%, 10%, 10%;
 }
