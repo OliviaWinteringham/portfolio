@@ -1,5 +1,7 @@
 .page{
     cursor: url('../../Assets/cursors/smileyCursor.cur'), auto;
+    padding: 5%;
+    justify-content: center;
 }
 
 .skillsText{
@@ -21,7 +23,7 @@
     display: flex;
     justify-content: center;
     flex-direction: row;
-    padding-top: 20vh;
+    padding-top: 10vh;
     width: 50%;
     padding-left: 25%;
     padding-right: 25%;
@@ -32,6 +34,7 @@
     justify-content: center;
     text-align: center;
     flex-direction: row;
+    max-width: 600px;
 }
 
 .skillsBody{
@@ -47,4 +50,5 @@
     justify-content: center;
     flex-direction: row;
     padding: 5%, 10%, 10%, 10%;
+    text-align: center;
 }

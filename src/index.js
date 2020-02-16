@@ -20,6 +20,7 @@ const routing = (
     <Route path="/projects" component={Projects} />
     <Route path="/contact" component={Contact} />
     <Route path='/twitter' component={() => { window.location = 'https://twitter.com/owinteringham'} }/>
+    <Route path='/medium' component={() => { window.location = 'https://blog.schoolofcode.co.uk/a-beginners-guide-to-creating-your-very-own-custom-web-font-7b71b16f4ef3'} }/>
   </Router>
 );
 
