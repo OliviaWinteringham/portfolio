@@ -14,10 +14,9 @@ function Home() {
         <h1 className={css.oliviaHeader} id={css.oliviaHeaderHover}>
           Olivia Winteringham
         </h1>
-        <h2 className={css.oliviaDescription}>junior web developer</h2>
         <p className={css.intro}>learned to code with The School of Code bootcamp</p>
       </div>
-      <p className={css.languages}>
+     <p className={css.languages}>
         <Emoji symbol="👩‍🔧" label="woman mechanic" />HTML5{"  "}
         <Emoji symbol="👩‍🏭" label="factory worker" /> CSS3{" "}
         <Emoji symbol="👩‍💻" label="woman technologist" /> javaScript{"  "}
@@ -27,7 +26,7 @@ function Home() {
         {"  "}
       </p>
       <p className={css.madeInReact}>
-        this website was designed by me in React
+        I built this website in React
       </p>
       </article>
     </>

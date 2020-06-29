@@ -4,12 +4,13 @@
   align-items: center;
   flex-direction: column;
   height: 50%;
-  padding-top: 2%;
+  padding-top: 5%;
 }
 
 .oliviaHeader {
   font-family: "olivia", sans-serif;
   font-size: 60px;
+  padding: 10px, 60px;
 }
 
 #oliviaHeaderHover:hover {
@@ -67,15 +68,6 @@
   font-family: "Roboto Slab", serif;
   font-size: 20px;
 }
-
-/* @keyframes buttonSpin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
 
 .languages {
   font-family: "Roboto Slab", serif;
