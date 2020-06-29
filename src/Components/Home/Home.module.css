@@ -9,15 +9,17 @@
 
 .oliviaHeader {
   font-family: "olivia", sans-serif;
+  color: #ffffff;
   font-size: 60px;
   padding: 10px, 60px;
 }
 
 #oliviaHeaderHover:hover {
   font-family: "Roboto Slab", serif;
+  color: black;
   animation: shake 0.5s;
   animation-iteration-count: infinite;
-  background-color: red;
+  background-color: lime;
   border-radius: 20% 50% 30% 40%;
   border: 15px dashed;
   padding: 10px 60px;
@@ -62,11 +64,13 @@
 .oliviaDescription {
   font-family: "olivia";
   font-size: 38px;
+  color: #ffffff;
 }
 
 .intro {
   font-family: "Roboto Slab", serif;
   font-size: 20px;
+  color: #ffffff;
 }
 
 .languages {
@@ -75,6 +79,7 @@
   display: flex;
   justify-content: center;
   flex-direction: row;
+  color: #ffffff;
 }
 
 .madeInReact {
@@ -83,6 +88,7 @@
   justify-content: space-around;
   font-family: "Roboto Slab", serif;
   font-size: 10px;
+  color: #ffffff;
 }
 
 @media only screen and (max-width: 880px){

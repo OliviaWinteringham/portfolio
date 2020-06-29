@@ -2,10 +2,12 @@
   display: flex;
   justify-content: center;
   padding: 20vh;
+  color: #ffffff;
 }
 
 .contactText {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  color: #ffffff;
 } 

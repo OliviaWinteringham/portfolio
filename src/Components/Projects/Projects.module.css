@@ -89,15 +89,15 @@
     right: 0;
     opacity: 0;
     transition: .5s ease;
-    background-color: yellow;
+    background-color: black
   }
   .container:hover .overlay {
     opacity: 1;
   }
 
   .overlayText {
-    color: black;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    color: #ffffff;
+    font-family: 'olivia', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
     font-size: 50px;
     position: absolute;
     top: 50%;

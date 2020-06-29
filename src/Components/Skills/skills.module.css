@@ -9,13 +9,14 @@
     justify-content: center;
     text-align: center;
     flex-direction: row;
-    padding-top: 20vh
+    padding-top: 20vh;
+    color: #ffffff
 }
 .olivia{
   font-family: 'olivia';
   display: flex;
   justify-content: center;
-  /* cursor: url('../../Assets/cursors/heart.cur'), auto */
+ color: #ffffff;
 }
 
 
@@ -23,18 +24,19 @@
     display: flex;
     justify-content: center;
     flex-direction: row;
-    padding-top: 10vh;
+    padding-top: 5%;
     width: 50%;
     padding-left: 25%;
     padding-right: 25%;
     transform:  translate (-50%);
-    color: black;
+    color: #ffffff;
     font-family: "socfont";
     display: flex;
     justify-content: center;
     text-align: center;
     flex-direction: row;
     max-width: 600px;
+    color: red;
 }
 
 .skillsBody{
@@ -42,6 +44,7 @@
     display: flex;
     justify-content: center;
     flex-direction: row;
+    color: #ffffff;
 }
 
 .socfont{
@@ -51,4 +54,5 @@
     flex-direction: row;
     padding: 5%, 10%, 10%, 10%;
     text-align: center;
-}
+    color: #ffffff
+ }

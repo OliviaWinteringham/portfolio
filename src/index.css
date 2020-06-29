@@ -6,6 +6,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: black;
 }
 
 code {
@@ -13,7 +14,7 @@ code {
     monospace;
 }
 
-body{
+/* body{
   animation: colorchange 15s infinite;
   -webkit-animation: colorchange 15s infinite;
 }
@@ -38,4 +39,4 @@ body{
       50%  {background-color: blue;}
       75%  {background-color: turquoise;}
       100% {background-color: red;}
-    }
+    } */
