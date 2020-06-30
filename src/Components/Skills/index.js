@@ -6,14 +6,13 @@ import { Link } from "react-router-dom";
 class Skills extends React.Component {
 
   render() {
-    // const text  = this.state;
+
     return (
       <>
         <nav>
         <NavBar/>
         </nav>
         <main className={css.page}> 
-          {/* <h1 className={css.skillsText}>Skills</h1> */}
           <h1 className={css.editableText} contenteditable="true">Click here, delete and start typing</h1>
           <p className={css.skillsBody}>I really like typography, so I made my own webfont which you can see above. It's called...</p>
           <h1 className={css.socfont}>'contrbutions from everyone at School of Code' - catchy?</h1>

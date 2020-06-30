@@ -7,34 +7,32 @@
 .button {
   font-family: "olivia";
   background-color: black;
+  border: none;
   font-size: 200%;
   color: white;
   width: 20vw;
   height: 19vh;
   margin: 10px;
-  outline: none;
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
 }
 
 #buttonHome:hover {
-  background-color: purple;
+  color: magenta;
   font-family: "Dancing Script", cursive;
-  font-size: 40px;
+  font-size: 100px;
   cursor: url('../../Assets/cursors/heartFace.cur'), auto
 }
 
 #buttonSkills:hover {
-  background-color: darkblue;
+  color: #7DF9FF;
   font-family: "Bowlby One SC", cursive;
   cursor: url('../../Assets/cursors/mess.cur'), auto
 }
 
 #buttonProjects:hover {
-  background-color: limegreen;
-  /* animation: buttonsSpin infinite 11s cubic-bezier(0.215, 0.610, 0.355, 1);
-  height: 40vmin;
-  pointer-events: none; */
+color: limegreen;
+  animation: buttonsSpin infinite 11s cubic-bezier(0.215, 0.610, 0.355, 1);
   font-family: "UnifrakturMaguntia", cursive;
   font-size: 80px;
   cursor: url('../../Assets/cursors/queenCursor.cur'), auto
